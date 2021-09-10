@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\AEKM\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AEKM\\.nuget\\packages"
+    ]
+  }
+}
