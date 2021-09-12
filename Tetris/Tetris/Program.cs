@@ -9,19 +9,16 @@ namespace Tetris
             Console.SetWindowSize(40, 30);
             Console.SetBufferSize(40, 30);
 
-            Point p1 = new Point();
-            p1.x = 2;
-            p1.y = 3;
-            p1.c = '*';
-            p1.Draw();
+            Figure[] f = new Figure[2];
+            f[0] = new Square(2, 5, '*');
+            f[1] = new Stick(6, 7, '*');
 
-            Point p2 = new Point();
-            p2.x = 2;
-            p2.y = 4;
-            p2.c = '*';
-            p2.Draw();
-
+            foreach (Figure fig in f)
+            {
+                fig.Draw();
+            }
             Console.ReadLine();
+        
         }
 
     }
